@@ -1,0 +1,41 @@
+sku_id,sku_name,category,subcategory,brand,base_price,unit_cost
+K001,Bean & Co Ground Coffee Classic,Coffee,Ground Coffee,Bean & Co,10.73,7.34
+K002,Morning Ritual Ground Coffee Lite,Coffee,Ground Coffee,Morning Ritual,7.09,4.91
+K003,Bean & Co Ground Coffee Family Pack,Coffee,Ground Coffee,Bean & Co,8.54,5.59
+K004,Morning Ritual Ground Coffee Premium,Coffee,Ground Coffee,Morning Ritual,10.13,7.0
+K005,Silkara Shampoo Classic,Personal Care,Shampoo,Silkara,4.22,2.68
+K006,PureRoot Shampoo Lite,Personal Care,Shampoo,PureRoot,5.12,3.19
+K007,Silkara Shampoo Family Pack,Personal Care,Shampoo,Silkara,8.35,5.83
+K008,PureRoot Shampoo Premium,Personal Care,Shampoo,PureRoot,6.36,3.88
+K009,FizzUp Soda Classic,Beverages,Soda,FizzUp,2.13,1.21
+K010,Cola Royale Soda Lite,Beverages,Soda,Cola Royale,2.4,1.65
+K011,FizzUp Soda Family Pack,Beverages,Soda,FizzUp,2.19,1.26
+K012,Cola Royale Soda Premium,Beverages,Soda,Cola Royale,1.89,1.3
+K013,CrunchCo Potato Chips Classic,Snacks,Potato Chips,CrunchCo,3.84,2.58
+K014,Golden Crisp Potato Chips Lite,Snacks,Potato Chips,Golden Crisp,2.04,1.2
+K015,CrunchCo Potato Chips Family Pack,Snacks,Potato Chips,CrunchCo,3.63,2.52
+K016,Golden Crisp Potato Chips Premium,Snacks,Potato Chips,Golden Crisp,3.68,2.25
+K017,SunGrain Cereal Classic,Breakfast,Cereal,SunGrain,3.89,2.6
+K018,OatHarvest Cereal Lite,Breakfast,Cereal,OatHarvest,4.71,2.91
+K019,SunGrain Cereal Family Pack,Breakfast,Cereal,SunGrain,4.07,2.62
+K020,OatHarvest Cereal Premium,Breakfast,Cereal,OatHarvest,5.39,3.55
+K021,CleanWave Detergent Classic,Home Care,Detergent,CleanWave,10.6,6.56
+K022,Brightex Detergent Lite,Home Care,Detergent,Brightex,8.34,5.67
+K023,CleanWave Detergent Family Pack,Home Care,Detergent,CleanWave,11.63,6.61
+K024,Brightex Detergent Premium,Home Care,Detergent,Brightex,10.2,6.03
+K025,Alpine Farms Yogurt Classic,Dairy,Yogurt,Alpine Farms,1.74,1.08
+K026,CreamyCo Yogurt Lite,Dairy,Yogurt,CreamyCo,1.81,1.26
+K027,Alpine Farms Yogurt Family Pack,Dairy,Yogurt,Alpine Farms,1.53,0.92
+K028,CreamyCo Yogurt Premium,Dairy,Yogurt,CreamyCo,1.72,1.0
+K029,CocoaJoy Chocolate Classic,Confectionery,Chocolate,CocoaJoy,4.16,2.56
+K030,Velvetta Chocolate Lite,Confectionery,Chocolate,Velvetta,2.73,1.57
+K031,CocoaJoy Chocolate Family Pack,Confectionery,Chocolate,CocoaJoy,2.74,1.52
+K032,Velvetta Chocolate Premium,Confectionery,Chocolate,Velvetta,2.72,1.58
+K033,Nonna's Pasta Classic,Pantry,Pasta,Nonna's,1.98,1.3
+K034,Durum Gold Pasta Lite,Pantry,Pasta,Durum Gold,2.02,1.11
+K035,Nonna's Pasta Family Pack,Pantry,Pasta,Nonna's,2.49,1.51
+K036,Durum Gold Pasta Premium,Pantry,Pasta,Durum Gold,1.55,0.89
+K037,Pizzeria Uno-Mas Frozen Pizza Classic,Frozen,Frozen Pizza,Pizzeria Uno-Mas,7.07,4.79
+K038,OvenStar Frozen Pizza Lite,Frozen,Frozen Pizza,OvenStar,7.36,4.09
+K039,Pizzeria Uno-Mas Frozen Pizza Family Pack,Frozen,Frozen Pizza,Pizzeria Uno-Mas,7.48,4.89
+K040,OvenStar Frozen Pizza Premium,Frozen,Frozen Pizza,OvenStar,4.79,3.3

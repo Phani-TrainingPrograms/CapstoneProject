@@ -1,0 +1,51 @@
+{
+  "generator": "data_gen/generate_data.py",
+  "seed": 20261007,
+  "n_stores": 100,
+  "n_skus": 40,
+  "n_weeks": 104,
+  "first_week": "2024-10-07",
+  "last_week": "2026-09-28",
+  "rows_sales_weekly": 416000,
+  "parameters": {
+    "region_trend_per_year": {
+      "North": 0.1,
+      "South": -0.06,
+      "East": 0.03,
+      "West": 0.0
+    },
+    "format_season_amplitude": {
+      "Hyper": 0.18,
+      "Super": 0.07,
+      "Express": -0.06
+    },
+    "format_scale": {
+      "Hyper": 2.2,
+      "Super": 1.0,
+      "Express": 0.4
+    },
+    "holiday_lift": {
+      "Thanksgiving / Black Friday": 1.3,
+      "Christmas": 1.4,
+      "New Year": 1.12,
+      "Easter": 1.12,
+      "Independence Day": 1.1,
+      "Labor Day": 1.06
+    },
+    "store_week_shock_sd": 0.02,
+    "treated_stores_per_promo": 15,
+    "min_holdout_per_format_region": 3
+  },
+  "hidden_from_method": [
+    "ground_truth_effects.csv"
+  ],
+  "sha256": {
+    "stores.csv": "fb169a2234de6f4e2599ecc9dcd197e1e5a98c62a9032bec54667d563713c9d2",
+    "products.csv": "4ac6ca9791c5a131998d3eddbe9e8fc691999935f3266e27bcd5a15bb4f9d205",
+    "calendar.csv": "58fb3edc693ec10f2eb67c8f0f4bafa9a8e36385fb90d36b5028e73f28eba226",
+    "promotions.csv": "c3eaab453bd83d57fdc0f4084cf17b031f898d3821703b95e9e0dc2206389058",
+    "promo_store_assignment.csv": "809a54d738a5e944b2889458fa95a07a5867841e2337fe603df8e7c0618d2b37",
+    "sales_weekly.csv": "2e60f87c181b6880c98273e0074179741bb92b02290647360f3d39e2da8e18b1",
+    "ground_truth_effects.csv": "9b4e6083f615e959c260916bcdd668aed0ef120d02b52f7ec9bd3e94051049cf"
+  }
+}

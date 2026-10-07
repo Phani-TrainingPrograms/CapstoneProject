@@ -1,0 +1,45 @@
+# Method-change gate: a change to the attribution method cannot merge unmeasured.
+name: method-gate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Unit, recovery, reproducibility and gate tests (+ coverage)
+        run: pytest -q --cov=attribution --cov-report=json:reports/coverage.json --cov-report=term
+
+      - name: Baseline definition coverage floor (95%)
+        run: python scripts/check_coverage.py reports/coverage.json attribution/baseline.py 95
+
+      - name: Fetch the method currently on main (for diff + version-bump check)
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git show origin/${{ github.base_ref }}:method_config.yaml > base_config.yaml
+          else
+            cp method_config.yaml base_config.yaml
+          fi
+
+      - name: Recovery gate on the proposed method
+        run: python gate.py --config method_config.yaml --baseline-config base_config.yaml --json reports/gate.json
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gate-report
+          path: reports/
