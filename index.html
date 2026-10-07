@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Promo Attribution</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232a78d6'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>PA</text></svg>">
+  <script src="/static/vendor/plotly.min.js"></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">PA</div>
+      <div><div class="brand-name">Promo Attribution</div><div class="brand-sub">Measured, not argued</div></div>
+    </div>
+    <nav class="nav">
+      <div class="nav-label">Results</div>
+      <a href="#/portfolio" data-route="portfolio"><span class="num">1</span>Portfolio</a>
+      <a href="#/promo" data-route="promo"><span class="num">2</span>Promotion deep-dive</a>
+      <a href="#/ask" data-route="ask"><span class="num">3</span>Ask</a>
+      <div class="nav-label">Trust</div>
+      <a href="#/method" data-route="method"><span class="num">4</span>The method</a>
+      <a href="#/validation" data-route="validation"><span class="num">5</span>Ground-truth validation</a>
+      <a href="#/repro" data-route="repro"><span class="num">6</span>Reproducibility</a>
+      <a href="#/gate" data-route="gate"><span class="num">7</span>Method-change gate</a>
+      <div class="nav-label">Inputs</div>
+      <a href="#/data" data-route="data"><span class="num">8</span>Data</a>
+    </nav>
+    <div class="sidebar-foot" id="foot">
+      <div class="loading" style="padding:0">…</div>
+    </div>
+  </aside>
+  <main id="view"><div class="loading"><span class="spinner"></span> Loading…</div></main>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

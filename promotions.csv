@@ -1,0 +1,13 @@
+promo_id,promo_name,category,mechanic,discount_pct,sku_ids,start_week,end_week,duration_weeks,funding_cost,owner
+P01,Spring Coffee Feature Display,Coffee,Display,0.0,K001|K002|K003|K004,2025-04-21,2025-05-12,4,9000,Trade Marketing
+P02,Shampoo 10% Off,Personal Care,TPR,0.1,K005|K006|K007|K008,2025-05-05,2025-06-02,5,6000,Shopper Marketing
+P03,Summer Soda 20% Off,Beverages,TPR,0.2,K009|K010|K011|K012,2025-06-16,2025-07-21,6,8000,Category Mgmt
+P04,Chips Buy-One-Get-One,Snacks,BOGO,0.5,K013|K014|K015|K016,2025-06-30,2025-07-21,4,15000,Trade Marketing
+P05,Breakfast Bundle Deal,Breakfast,Bundle,0.15,K017|K018|K019|K020,2025-08-11,2025-09-08,5,6000,Shopper Marketing
+P06,Detergent Loyalty Points,Home Care,Loyalty,0.0,K021|K022|K023|K024,2025-08-25,2025-09-29,6,4000,Category Mgmt
+P07,Yogurt 15% Off,Dairy,TPR,0.15,K025|K026|K027|K028,2025-09-22,2025-10-20,5,4000,Trade Marketing
+P08,Snacks Endcap Relocation,Snacks,Display,0.0,K013|K014|K015|K016,2025-10-20,2025-11-24,6,3000,Shopper Marketing
+P09,Holiday Chocolate Gifting,Confectionery,TPR,0.2,K029|K030|K031|K032,2025-12-01,2025-12-29,5,7000,Category Mgmt
+P10,Yogurt 10% Off (Repeat),Dairy,TPR,0.1,K025|K026|K027|K028,2026-01-12,2026-02-09,5,5000,Trade Marketing
+P11,Pasta Pantry Saver,Pantry,TPR,0.1,K033|K034|K035|K036,2026-02-23,2026-03-23,5,2500,Shopper Marketing
+P12,Frozen Pizza Buy-One-Get-One,Frozen,BOGO,0.5,K037|K038|K039|K040,2026-04-20,2026-05-25,6,12000,Category Mgmt

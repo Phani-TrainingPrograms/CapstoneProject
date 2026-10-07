@@ -1,0 +1,543 @@
+{
+  "passed": true,
+  "n_tests": 89,
+  "n_failed": 0,
+  "seconds": 23.7,
+  "tests": [
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[How did P09 perform?-promotion-ids0-contains0]",
+      "seconds": 0.852,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[how did pr-9 do-promotion-ids1-contains1]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[How did the chocolate promotion do?-promotion-ids2-contains2]",
+      "seconds": 0.008,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[How did the yogurt promotions do?-compare-ids3-contains3]",
+      "seconds": 0.003,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[Compare P03 and P12-compare-ids4-contains4]",
+      "seconds": 0.003,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[Top 5 promotions by ROI in 2025-ranking-ids5-contains5]",
+      "seconds": 0.005,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[Worst 3 promotions by uplift-ranking-ids6-contains6]",
+      "seconds": 0.003,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[Which mechanics work best on average?-group-ids7-contains7]",
+      "seconds": 0.004,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[Which promotions lost money?-list-ids8-contains8]",
+      "seconds": 0.008,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[Which promotions had no effect?-list-ids9-contains9]",
+      "seconds": 0.003,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[How is the confidence interval computed?-method-ids10-contains10]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[How is the baseline defined?-method-ids11-contains11]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[How are control stores chosen?-method-ids12-contains12]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[Did the method recover the planted effects?-validation-ids13-contains13]",
+      "seconds": 0.006,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[How did promotions do overall?-portfolio-ids14-contains14]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[How did the Harbor promotion do?-not_found-ids15-contains15]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_ask_eval_case[asdf qwerty-fallback-ids16-contains16]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_answer_numbers_match_the_attribution",
+      "seconds": 0.379,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_follow_up_uses_conversation_context",
+      "seconds": 0.003,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_same_question_same_answer",
+      "seconds": 0.006,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_number_checker[Uplift was +18.6% and ROI +53% [E1]-True]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_number_checker[Revenue $39.5k from 2025-12-01 [E1]-True]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_number_checker[Uplift was +21.4% [E1]-False]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_number_checker[Revenue $52.0k [E1]-False]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_ask",
+      "name": "test_number_checker[It started 2025-11-03 [E1]-False]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_gap_weeks_are_skipped",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_zero_gap_uses_week_before_launch",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_baseline_never_includes_promo_weeks_or_later",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_holiday_weeks_are_skipped_and_replaced",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_holidays_kept_when_rule_disabled",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_other_promo_weeks_are_skipped",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_other_promo_weeks_kept_when_rule_disabled",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_week_that_is_holiday_and_promo_is_reported_once",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_stops_at_requested_number_of_weeks",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_lookback_limit_is_respected",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_start_of_history_is_respected",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_weeks_returned_in_ascending_order",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_refuses_when_too_few_valid_weeks",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_refuses_when_everything_is_blocked",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_invalid_inputs_raise",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_match_window_override_ignores_min_valid",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_scale_is_ratio_over_baseline_weeks_only",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_scale_vectorised_per_store",
+      "seconds": 0.088,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_scale_with_flat_control_is_run_rate",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_scale_refuses_zero_control_and_empty_window",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_repeat_promo_baseline_excludes_earlier_promo_weeks",
+      "seconds": 0.025,
+      "passed": true
+    },
+    {
+      "file": "test_baseline",
+      "name": "test_holiday_promo_baseline_excludes_thanksgiving",
+      "seconds": 0.033,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_controls_are_never_treated_and_share_attributes",
+      "seconds": 0.003,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_relaxes_constraint_when_pool_too_small",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_matching_prefers_same_trajectory_without_attributes",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_strategies",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_estimator_recovers_planted_effect_exactly_in_noise_free_world[0.0]",
+      "seconds": 0.003,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_estimator_recovers_planted_effect_exactly_in_noise_free_world[0.07]",
+      "seconds": 0.003,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_estimator_recovers_planted_effect_exactly_in_noise_free_world[0.25]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_estimator_recovers_planted_effect_exactly_in_noise_free_world[-0.1]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_common_shock_cancels",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_controls_and_uplift",
+      "name": "test_bootstrap_is_seeded_and_brackets_estimate",
+      "seconds": 0.004,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_current_method_passes_gate",
+      "seconds": 0.859,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_gate_verdicts_on_proposals[v1.2.1_bootstrap_2000.yaml-PASS]",
+      "seconds": 1.225,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_gate_verdicts_on_proposals[v1.3.0_all_untreated_controls.yaml-BLOCK]",
+      "seconds": 3.549,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_gate_verdicts_on_proposals[v1.3.0_match_on_format_only.yaml-BLOCK]",
+      "seconds": 1.412,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_gate_verdicts_on_proposals[v2.0.0_spreadsheet_pre_post.yaml-BLOCK]",
+      "seconds": 0.453,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_unversioned_method_change_is_blocked",
+      "seconds": 1.701,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_config_diff_lists_changed_keys",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_current_version_is_documented_in_changelog",
+      "seconds": 0.012,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_api_endpoints",
+      "seconds": 2.681,
+      "passed": true
+    },
+    {
+      "file": "test_gate_and_api",
+      "name": "test_proposal_cannot_loosen_its_own_tolerance",
+      "seconds": 0.441,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P01]",
+      "seconds": 0.673,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P02]",
+      "seconds": 0.002,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P03]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P04]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P05]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P06]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P07]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P08]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P09]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P10]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P11]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_planted_effect_recovered_within_tolerance[P12]",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_null_promotion_not_called_significant",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_real_effects_have_correct_sign_and_are_detected",
+      "seconds": 0.001,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_confidence_interval_coverage",
+      "seconds": 0.373,
+      "passed": true
+    },
+    {
+      "file": "test_recovery",
+      "name": "test_method_cannot_see_ground_truth",
+      "seconds": 0.077,
+      "passed": true
+    },
+    {
+      "file": "test_reproducibility",
+      "name": "test_two_runs_identical",
+      "seconds": 0.794,
+      "passed": true
+    },
+    {
+      "file": "test_reproducibility",
+      "name": "test_fresh_load_identical",
+      "seconds": 1.046,
+      "passed": true
+    },
+    {
+      "file": "test_reproducibility",
+      "name": "test_result_independent_of_run_order",
+      "seconds": 0.434,
+      "passed": true
+    },
+    {
+      "file": "test_reproducibility",
+      "name": "test_seed_is_part_of_the_method",
+      "seconds": 0.806,
+      "passed": true
+    },
+    {
+      "file": "test_reproducibility",
+      "name": "test_results_are_stamped",
+      "seconds": 0.025,
+      "passed": true
+    },
+    {
+      "file": "test_reproducibility",
+      "name": "test_generator_reproduces_pinned_data",
+      "seconds": 1.408,
+      "passed": true
+    }
+  ],
+  "output_tail": "........................................................................ [ 80%]\n.................                                                        [100%]\n=============================== tests coverage ================================\n_______________ coverage: platform win32, python 3.13.5-final-0 _______________\n\nCoverage JSON written to file D:\\Claude_Training\\Capstone\\promo_attribution\\reports\\coverage.json\n89 passed in 20.98s"
+}

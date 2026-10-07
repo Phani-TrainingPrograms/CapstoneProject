@@ -1,0 +1,13 @@
+promo_id,true_uplift_pct,expected_incremental_units,scenario
+P01,0.08,5245.9,standard positive effect
+P02,0.04,2935.5,weak effect - sensitivity check
+P03,0.22,30795.9,standard positive effect
+P04,0.3,21948.1,standard positive effect
+P05,0.12,11886.3,standard positive effect
+P06,0.0,0.0,null effect - must NOT be called significant
+P07,0.15,15175.0,standard positive effect
+P08,-0.06,-4805.4,negative effect (cannibalisation)
+P09,0.18,15986.4,holiday-window promo
+P10,0.1,8045.3,repeat promo - baseline overlaps earlier promo
+P11,0.05,3439.8,weak effect - sensitivity check
+P12,0.25,26650.7,standard positive effect
